@@ -1,0 +1,91 @@
+body {
+	font-family: 'Roboto';
+	background: #24C6DC; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #24C6DC , #514A9D); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #24C6DC , #514A9D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+}
+
+h1 {
+	background: #332555;
+	color: #FFF;
+	margin: 0;
+	padding: 10px 20px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+input {
+	font-size: 18px;
+	background: #F7F7F7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	/*add moz and ms and webkit for this*/
+	border: 3px solid rgba(0,0,0,0);
+	color: #332555;
+}
+
+ul	{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	cursor: pointer;
+	background: #FFF;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+span {
+	background: #e74c3c;
+	height: 40px;
+	width: 0px;
+	color: #FFF;
+	margin-right: 20px;
+	display: inline-block;
+	text-align: center;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+input:focus {
+	background: #FFF;
+	border: 3px solid #332555;
+	outline: none;
+}
+
+input:hover {
+	background: #FFF;
+	border: 3px solid #332555;
+	outline: none;	
+}
+
+li:nth-child(2n) {
+	background: #F7F7F7;
+}
+
+.fa-plus-circle {
+	float: right;
+}
+
+.completed {
+	color: rgb(128, 128, 128);
+	text-decoration: line-through;
+}
+
+#container {
+	margin: 100px auto;
+	width: 360px;
+	background: #F7F7F7;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
